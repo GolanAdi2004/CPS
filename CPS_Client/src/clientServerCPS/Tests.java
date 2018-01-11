@@ -43,7 +43,9 @@ public class Tests
 	{
 	    new RequestsSender("127.0.0.1");
 	    
-	    // FullMembershipTest() PartialMembershipTest() ComplaintTest()
+	    // FullMembershipTest() 
+	    //PartialMembershipTest(); 
+	    //ComplaintTest()
 	    // CustomerTest() ReservationTest() ChangeRatesTest()
 	    // EmployeeTest() ParkinglotTest() DisabledParkingSpotsTest()
 	    // GuestEntryTest()
@@ -54,7 +56,7 @@ public class Tests
 	    //ActivityReportTest()
 	    for (int i = 0; i < 1; i++)
 	    {
-		if (ActivityReportTest())
+		if (PartialMembershipTest())
 		{
 		    System.out.println("Test Succeed");
 		}
